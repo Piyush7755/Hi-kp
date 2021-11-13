@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ 
+    <html lang="en">
+      <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>  Hi</title>
+    </head>
+<body>
+  <center> <h1>Hi  Priya </h1>
+    <p>These days I am learing JavaScript .I wanted to do some fun using JavaScript.That's why I sent this link </p>
+    <P> <h3> How are you feeling to learn JavaScript? </h3>
+         ( click on the icon( Happy,Excited,Extremely Happy,Tired) to see the effects.  )</P>
+    <script>
+    function feel(sw) {
+      var pic;
+      if (sw == 0) {
+        pic = "dp1.jpg"
+      }
+       else  if(sw==2){
+        pic = "dp.jpg"
+      }
+     
+      else {
+        pic = "dp2.jpg"
+      }
+      document.getElementById('myImage').src = pic;
+    }
+    
+    </script>
+    <p>
+      <button type="button" onclick="feel(2)">Happy </button> </button>
+      
+      <button type="button" onclick="feel(0)">Excited </button>
+      <button type="button" onclick="feel(3)">Extremely Happy </button>
+      
+      </p>
+    <img id="myImage" src="d.jpg"  >
+    
+    
+      </center>
+
+
+</body>
+</html>
